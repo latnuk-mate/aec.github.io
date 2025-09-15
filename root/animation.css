@@ -1,0 +1,40 @@
+@keyframes onHoverMove{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+@keyframes nodding {
+  0%   { transform: rotateY(0deg); }
+  25%  { transform: rotateY(25deg); }
+  50%  { transform: rotateY(-25deg); }
+  75%  { transform: rotateY(20deg); }
+  100% { transform: rotateY(0deg); }
+}
+
+@keyframes movingLeftAndRight{
+    0%{
+        transform: translateX(-20px);
+    }
+    35%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+
+

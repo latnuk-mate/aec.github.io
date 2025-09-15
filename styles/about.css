@@ -1,0 +1,265 @@
+@import url('/root/root.css');
+@import url('/root/nav.css');
+@import url('/root/button.css');
+@import url('/root/bgStyles.css');
+@import url('/styles.css');
+@import url('/root/common.css');
+@import url('/root/animation.css');
+
+
+.about--us{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.about--us .about--text, .products--section h5{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    margin: auto;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.about--text strong{
+    font-style: italic;
+}
+
+.about--us p{
+    font-size: 1.2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.about--us .first--para{
+    margin-bottom: 2rem;
+}
+
+.products--section{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.products--section p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    opacity: .7;
+
+}
+
+.products--section .swiper{
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.service--swiper .product--card{
+    width: 20rem;
+    height: 22rem;
+    padding: 10px 12px;
+    overflow: hidden;
+    color: var(--text-primary-color);
+    border-radius: 8px;
+}
+
+.product--card .img--body{
+    margin-bottom: 1rem;
+}
+
+.product--card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+}
+
+.product--card h5{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.product--card p{
+    width: 100%;
+    text-align: center;
+    font-size: .9rem;
+}
+
+
+.swiper .swiper--nav--action{
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+    background-color: var(--text-color-hover);
+    color: var(--secondary-bg);
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next::before,
+.swiper-button-prev::before{
+    font-size: 2.5rem;
+    transform: translate(-10%, -10%);
+    
+}
+
+.swiper-button-next::before {
+    content: '\2039';     
+}
+
+.swiper-button-prev::before {  
+  content: '\203A';
+}
+
+
+.claim--section .container{
+    background-color: var(--text-bg-color);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border-radius: 8px;
+    border-left: 14px solid var(--text-bg-border);
+}
+
+.claim--section h5{
+    color: var(--text-primary-color);
+    font-size: 2rem;
+    text-transform: capitalize;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    font-weight: 700;
+    margin: auto;
+    margin-bottom:2rem;
+}
+
+.claim--section .information p{
+    width: 80%;
+    margin: auto;
+    font-size: 1.2;
+    margin-bottom: 2rem;
+}
+
+.information h5{
+    border: none;
+    font-size: 1.3rem;
+    width: 60%;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.information ol{
+    width: 60%;
+    margin:auto;
+    list-style-type: disc;
+}
+
+.information ol li{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+/* customer part */
+.customer--call{
+    margin-top: 8rem;
+}
+
+.customer--call .container{
+    width:80% !important;
+    margin: auto;
+}
+.customer--call .left--part{
+    margin: auto;
+}
+
+.customer--call .left--part h5{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.customer--call .left--part p{
+    width: 70%;
+    font-size: 1rem;
+    opacity: .6;
+    text-align: center;
+}
+
+.customer--call .left--part .brand--logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+    background: var(--text-bg-color);
+    color: var(--text-primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.customer--call .left--part .brand--logo i{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.customer--call .left--part .brand--logo:hover{
+    animation: onHoverMove 1.2s ease-in-out;
+    animation-iteration-count: infinite;
+    transition: all .4s ease;
+}
+
+.customer--call .right--part{
+    padding: 18px 20px;
+    border-radius: .45em;
+    margin-left:10px;
+    border-left: 0.35em solid var(--text-bg-border);
+
+}
+
+.customer--call .right--part h5{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 3px solid var(--text-color-hover);
+    font-family: Verdana, cursive;
+}
+
+.customer--call .right--part form{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.customer--call .right--part input, textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--text-primary-color);
+    text-transform: capitalize;
+    color: var(--text-primary-color);
+}
+
+.customer--call .right--part input:focus, textarea:focus{
+    outline: none;
+}
+
+.customer--call form button{
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+}

@@ -1,0 +1,282 @@
+@import url('/root/root.css');
+@import url('/root/nav.css');
+@import url('/styles.css');
+@import url('/root/button.css');
+@import url('/root/bgStyles.css');
+@import url('/root/common.css');
+@import url('/root/animation.css');
+
+
+
+.panel--service--section{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+.panel--service--section h5{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    margin: auto;
+    margin-bottom: 1.4rem;
+    text-transform: capitalize;
+}
+
+.panel--service--section p{
+    width: 70%;
+    margin: auto;
+    font-size: 1.2rem;
+    opacity: .7;
+    text-align: center;
+}
+
+.panel--service--section .panel--card{
+    border-radius: 0.75em;
+    border-left: 5px solid var(--text-bg-border);
+}
+
+.panel--card:hover{
+    animation: onHoverMove 1.2s ease-in-out;
+    animation-iteration-count: infinite;
+    transition: all .4s ease;
+}
+
+.panel--card .card--head{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    padding: 2px;
+    border-radius: 0.35em;
+}
+
+.panel--card .card--head img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 8px;
+}
+
+.panel--card .card--body{
+    margin-top: 1rem;
+
+}
+
+.panel--card .card--body h5{
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    margin: auto;
+    margin-bottom: .75rem;
+    text-transform: capitalize;
+} 
+
+.panel--card .card--body p{
+    text-align: center;
+    font-size: .75rem;
+    opacity: .7;
+}
+
+.panel--card .card--body .cta--btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel--card .card--body .cta--btn a{
+    text-decoration: none;
+    color: var(--secondary-bg);
+}
+
+
+.brandsAndComponents{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.brandsAndComponents h5{
+  font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    margin: auto;
+    margin-bottom: 1.4rem;
+    text-transform: capitalize;
+}
+
+.brandsAndComponents p{
+    width: 70%;
+    margin: auto;
+    font-size: 1.2rem;
+    opacity: .7;
+    text-align: center; 
+}
+
+
+.brandsAndComponents .brand--card{
+    padding: 10px 12px;
+    border-radius: 0.65em;
+    height: 200px;
+    width: 14rem;
+    overflow: hidden;
+    margin-top: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    will-change: transform;
+}
+
+.brandsAndComponents .brand--card:hover{
+    animation: nodding 1.1s ease-in-out;
+    animation-iteration-count: infinite;
+    transition: all .6s ease;
+}
+
+.brandsAndComponents .brand--visual .row{
+        gap: 12px;
+    }
+
+.brand--card .brand--img{
+    padding: 1px;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 0.70em;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+            0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.brand--card .brand--img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.brand--card .brand--info{
+    margin-top: .70rem;
+    padding-bottom: 0.75rem;
+}
+
+.brand--info h5{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.brand--info p{
+    font-size: 0.75rem;
+     opacity: .8;
+     text-align: left !important;
+     width: 100% !important;
+}
+
+.brand--info small{
+    font-size: 8px;
+    opacity: .7;
+}
+
+.brandsAndComponents .component--info{
+    position: relative;
+    right: 50px;
+    background-color: var(--custom-footer-bg);
+    border-radius: 0.65em;
+}
+
+.component--info h5{
+    font-size: 1.2rem;
+}
+
+.component--info ul{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.component--info ul li{
+    margin-bottom: 5px;
+}
+
+.brandsAndComponents .call--to--action{
+    margin-top: 4rem;
+    gap: 40px;
+}
+
+.our--works{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+.our--works .container{
+    width: 70%;
+    margin: auto;
+}
+
+.our--works .work--area{
+    border-radius: .75em;
+    background-color: var(--secondary-bg);
+
+}
+
+.work--area h5{
+    color: var(--text-primary-color);
+    font-size: 2rem;
+    text-transform: capitalize;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    font-weight: 700;
+    margin: auto;
+    margin-bottom:1rem;
+}
+
+.work--area p{
+    font-size: 14px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    opacity: .8;
+}
+
+.work--area .work--card{
+    border-radius: 0.75em;
+    border: 1px solid rgb(176, 169, 169);
+    height: 16rem;
+    animation: onHoverMove 1.2s ease-in-out;
+    animation-iteration-count: infinite;
+    transition: all .4s ease;
+
+}
+
+.work--card .work--head{
+    width: 100%;;
+    height: 140px;
+    position: relative;
+    margin: auto;
+}
+
+.work--card img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.work--area .work--body{
+    margin-top: 1rem;
+}
+
+.work--body h5{
+    font-size: 1.2rem;
+    border: none;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.work--body p{
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    opacity: .7;
+}

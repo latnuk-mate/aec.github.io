@@ -1,0 +1,35 @@
+/* custom fonts ::- Roboto Slab for all text in the page. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* custom variables */
+:root{
+    --primary-bg: #0ABAB5;
+    --secondary-bg: #F7F7F7;
+    --text-color-hover: #FE4F2D;
+    --text-primary-color: #393E46;
+    --text-bg-color: #FECB89;
+    --text-bg-border: #FFA952;
+    --custom-footer-bg: #FFF2CC;
+}
+
+::selection{
+    color: var(--secondary-bg);
+    background-color: var(--text-color-hover);
+}
+
+body{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  background-color: var(--secondary-bg);
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  height: 100vh;
+
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-primary-color);
+}
+

@@ -1,0 +1,98 @@
+@import url('/root/root.css');
+@import url('/root/nav.css');
+@import url('/styles.css');
+@import url('/root/button.css');
+@import url('/root/bgStyles.css');
+@import url('/root/common.css');
+@import url('/root/animation.css');
+@import url('/styles/client.css');
+
+.header .header--text h2{
+    color: var(--secondary-bg);
+    text-align: center;
+    font-style: italic;
+}
+
+.contact--form{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.contact--form .container{
+    width: 80%;
+    margin: auto;
+}
+
+.contact--form .form--area{
+    background-color: var(--secondary-bg);
+    border-radius: 0.45em;
+}
+
+.form--area input{
+    width: 100%;
+    padding: 8px 12px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--text-primary-color);
+    color: var(--text-primary-color);
+    background: transparent;
+}
+
+.form--area input:focus{
+    outline: none;
+}
+
+
+.icon--contact{
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+}
+
+.icon--contact .container{
+    width: 70%;
+    margin: auto;
+}
+
+.icon--contact .icon--area{
+    background-color: var(--text-bg-color);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: auto;
+    animation: onHoverMove 1.2s ease-in-out;
+    animation-iteration-count: infinite;
+    transition: all .4s ease;
+}
+
+.icon--contact .icon--area a{
+    text-decoration: none;
+    color: var(--text-primary-color);
+    font-size: 2.5rem;
+}
+
+.explore--section{
+    margin-top: 10rem;
+    margin-bottom: 1rem !important;
+}
+
+.explore--section .explore--main{
+    padding-bottom: 6rem;
+}
+
+.explore--section .explore--btn{
+    margin-left: 40px;
+}
+
+.explore--section .explore--btn a{
+    font-size: 14px;
+}
+
+.footer{
+    margin-top: 2rem;
+}
+
+
+

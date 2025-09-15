@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo--img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+nav ul li{
+    padding: 7px 20px;
+}
+
+nav ul li .nav-link{
+    font-weight: 500 !important;
+    
+}
+
+nav ul li a:hover{
+    color: var(--text-color-hover) !important;
+}
+
+nav ul li a.active{
+    color: var(--text-color-hover) !important;
+}

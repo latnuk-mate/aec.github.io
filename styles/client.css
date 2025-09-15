@@ -1,0 +1,226 @@
+@import url('/root/root.css');
+@import url('/root/nav.css');
+@import url('/styles.css');
+@import url('/root/button.css');
+@import url('/root/bgStyles.css');
+@import url('/root/common.css');
+@import url('/root/animation.css');
+@import url('./about.css');
+
+.why--choose--us{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.why--choose--us .container{
+    width: 70%;
+    margin: auto;
+}
+
+.why--choose--us h5{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    margin: auto;
+    margin-bottom: 1.1rem;
+    text-transform: capitalize;
+    
+}
+
+.why--choose--us p{
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    opacity: .6;
+    width: 60%;
+}
+
+.why--choose--us .custom--card{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: onHoverMove 2s ease-in-out;
+    animation-iteration-count: infinite;
+    transition: all .6s ease;
+}
+
+.custom--card .head{
+    position: absolute;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.custom--card .head img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.custom--card .body{
+    margin-top: 5rem;
+}
+
+.custom--card .body h5{
+    font-size: 1.2rem;
+    border: none;
+    margin-bottom: 5px !important;
+}
+
+.custom--card .body p{
+    font-size: 12px;
+    opacity: .7;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.custom--card .body a{
+    text-decoration: none;
+    color: var(--secondary-bg);
+}
+
+.industries{
+    margin-top: 9rem;
+    margin-bottom: 2rem;
+}
+
+.industries h5{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    margin: auto;
+    margin-bottom: 1.1rem;
+    text-transform: capitalize;
+}
+
+.industries p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: .7;
+}
+
+
+.industries .product--card .text--body h5{
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.industries .product--card .text--body p{
+    width: 100%;
+    text-align: center;
+}
+
+.client--part{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.client--part h5{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    margin: auto;
+    margin-bottom: 1.1rem;
+    text-transform: capitalize; 
+}
+
+.client--part p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: .7;
+}
+
+.our--projects{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.our--projects .container{
+    width: 80%;
+    margin:auto;
+}
+
+.our--projects .title{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-bottom: 4px solid var(--text-color-hover);
+    margin: auto;
+    margin-bottom: 1.1rem;
+    text-transform: capitalize; 
+}
+
+.our--projects .sub--title{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: .7;
+}
+
+.our--projects .main--container{
+    background-color: var(--secondary-bg);
+    padding: 10px 24px;
+    padding-bottom: 2rem;
+}
+
+.main--container .project--row{
+    margin-top: 1rem;
+}
+
+
+.project--row .text--part h5{
+    font-size: 1.5rem;
+    border:none;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.project--row .text--part p{
+    width: 100%;
+    font-size: 14px;
+    opacity: .7;
+}
+
+.project--row .text--part .page--btn a{
+    text-decoration: none;
+    color: var(--secondary-bg);
+    border-radius: 4px;
+}
+
+.project--row .img--area .head{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.project--row .img--area img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.45em;
+    object-fit: cover;
+    object-position: center right;
+}
+
+
+.customer--call{
+    margin-top: 10rem!important;
+}

@@ -1,0 +1,74 @@
+@import url('/root/root.css');
+
+
+.custom--footer--style{
+    background-color: var(--custom-footer-bg) !important;
+}
+
+.custom--footer--style p{
+    color: var(--text-primary-color) !important;
+}
+
+.custom--footer--style h5{
+    color: var(--text-primary-color) !important;
+}
+
+.custom--footer--style .copyright{
+    background-color: var(--text-bg-color);
+}
+
+
+.common--top--header{
+    min-height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.common--top--header .swiper-slide{
+    background-color: rgba(0, 0, 0 , 0.6);
+}
+
+
+.common--img--slider .swiper-slide img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
+    mix-blend-mode: multiply;
+    z-index: -99;
+    
+}
+
+.common--top--header nav{
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+}
+
+
+.navbar-brand h5{
+    color: var(--secondary-bg);
+}
+
+.custom--nav ul li a {
+    color: var(--secondary-bg) !important;
+}
+
+.common--top--header .header--text{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    top: 180px;
+    z-index: 999;
+    left:10%;
+    right: 10%;
+
+}
+
+.common--top--header .header--text h1{
+    text-align: center;
+    color: var(--secondary-bg);
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 3rem;
+}
