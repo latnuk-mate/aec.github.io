@@ -1,0 +1,14 @@
+@import url('/root/root.css');
+
+.btn--element{
+    background-color: var(--text-color-hover);
+    color: var(--secondary-bg);
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.btn--element:hover{
+    color: var(--secondary-bg)!important;
+}

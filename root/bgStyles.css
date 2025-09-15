@@ -1,0 +1,23 @@
+@import url('./root.css');
+
+.custom-bg-styles{
+    background-color: var(--secondary-bg);
+    z-index: 9999;
+}
+
+.custom-bg-styles h5{
+     color: var(--text-primary-color)!important;
+}
+
+.custom-bg-styles li .nav-link{
+    color: var(--text-primary-color) !important;
+}
+
+.custom-bg-styles li a:hover{
+    color: var(--text-color-hover) !important;
+}
+
+
+#about--li .active, #product--li .active, #client--li .active, #contact--li .active{
+    color: var(--text-color-hover)!important;
+}
