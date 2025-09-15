@@ -99,7 +99,6 @@ var map = new google.maps.Map(document.getElementById("gMap"), props);
 
 }
 
-
 // page navigation script...
 
 const navEl = document.querySelector('.custom--nav');

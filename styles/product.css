@@ -1,10 +1,10 @@
-@import url('/root/root.css');
-@import url('/root/nav.css');
-@import url('/styles.css');
-@import url('/root/button.css');
-@import url('/root/bgStyles.css');
-@import url('/root/common.css');
-@import url('/root/animation.css');
+@import url('../root/root.css');
+@import url('../root/nav.css');
+@import url('../root/button.css');
+@import url('../root/bgStyles.css');
+@import url('../styles.css');
+@import url('../root/common.css');
+@import url('../root/animation.css');
 
 
 
